@@ -12,6 +12,7 @@ public class RestApplication {
         SpringApplication.run(RestApplication.class, args);
         Task1.run();
         Task2.run();
+        Task3.run();
     }
 
 }
