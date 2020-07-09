@@ -13,6 +13,7 @@ public class RestApplication {
         Task1.run();
         Task2.run();
         Task3.run();
+        Task4.run();
     }
 
 }

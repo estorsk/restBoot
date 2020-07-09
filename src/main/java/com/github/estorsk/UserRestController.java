@@ -31,4 +31,9 @@ public class UserRestController {
     public Task3 task3(){
         return new Task3();
     }
+
+    @GetMapping(value = "/task4")
+    public Task4 task4(){
+        return new Task4();
+    }
 }
