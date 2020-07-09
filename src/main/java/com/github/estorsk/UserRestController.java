@@ -1,10 +1,8 @@
 package com.github.estorsk;
 
+
 import org.springframework.http.HttpStatus;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 public class UserRestController {
@@ -17,5 +15,10 @@ public class UserRestController {
     @PostMapping(value = "/user")
     public BaseResponse createUser(@RequestBody UserRequest userRequest){
         return new BaseResponse(userRequest.toString());
+    }
+
+    @GetMapping(value = "/task1")
+    public Task1 task1(){
+        return new Task1();
     }
 }
