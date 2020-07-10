@@ -15,6 +15,7 @@ public class RestApplication {
         Task3.run();
         Task4.run();
         Task5.run();
+        Task7.min(2022, 222);
     }
 
 }
