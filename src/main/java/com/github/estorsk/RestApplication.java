@@ -16,6 +16,8 @@ public class RestApplication {
         Task4.run();
         Task5.run();
         Task7.min(2022, 222);
+        Task8.cube(2); Task8.sqrAndTow(); Task8.sum();
+
     }
 
 }

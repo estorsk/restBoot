@@ -13,7 +13,7 @@ public class Task7 {
         }
 
     }
-    
+
     public Task7() {
         this.numberMin = getNumberMin();
     }
